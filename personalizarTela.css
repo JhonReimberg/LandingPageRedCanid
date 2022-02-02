@@ -1,0 +1,162 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+        
+        body {
+            font-size: 100%;
+            background: #161816;
+        }
+        
+        a:link {
+            color: #FFFFFF;
+        }
+        
+        .cabecalho {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            padding: 24px;
+        }
+        
+        .cabecalho-menu {
+            display: flex;
+            gap: 34px;
+            border-bottom: white;
+        }
+        
+        .cabecalho-menu-item {
+            font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+            color: #FFFFFF;
+            font-size: 18px;
+            font-weight: 400;
+            border-bottom: 4px solid #EF374D;
+            border-radius: 9px;
+        }
+        
+        .cabecalho-botaoitem {
+            background-color: #EF374D;
+            Width: 179px;
+            Height: 65px;
+            border-radius: 8px;
+            border: none;
+            font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+            color: #F1F0F5;
+            font-size: 15px;
+        }
+        
+        .imagem-circulo {
+            position: absolute;
+            width: 910px;
+            height: 867px;
+            left: 654.9000000000001px;
+            top: 56.900000000000006px;
+        }
+        
+        .blusas-roupas {
+            position: absolute;
+            width: 567px;
+            height: 495px;
+            left: 822px;
+            top: 247px;
+            z-index: 998;
+        }
+        
+        .conteudo {
+            border-top: 20px solid #EF374D;
+            border-bottom: 20px solid #EF374D;
+            padding-top: 131px;
+            padding-bottom: 180px;
+        }
+        
+        .conteudo-principal {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex-direction: column;
+        }
+        
+        .conteudo-principal-escrito {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .conteudo-principal-escrito-titulo {
+            font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+            color: #FFFFFF;
+            margin-left: 143px;
+            font-size: 64px;
+            width: 39.5%;
+        }
+        
+        .conteudo-principal-escrito-subtitulo {
+            font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+            color: #FFFFFF;
+            margin-left: 143px;
+            font-size: 16px;
+        }
+        
+        .botao {
+            background-color: #EF374D;
+            Width: 179px;
+            Height: 65px;
+            border-radius: 8px;
+            border: none;
+            font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+            color: #F1F0F5;
+            font-size: 20px;
+            margin-left: 143px;
+        }
+        
+        .celular {
+            position: absolute;
+            width: 666.97px;
+            height: 596.02px;
+            left: 68.18px;
+            top: 838.12px;
+        }
+        
+        .rodape {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 24px;
+            margin-left: 25%;
+            border-bottom: 20px solid #EF374D;
+        }
+        
+        .rodape-titulo {
+            font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+            color: #FFFFFF;
+            font-size: 60px;
+            padding-bottom: 28px;
+        }
+        
+        .rodape-subtitulo {
+            display: flex;
+            font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+            color: #FFFFFF;
+            font-size: 20px;
+            margin-right: 38px;
+            margin-bottom: 40px;
+        }
+        
+        .rodape-paragrafo {
+            font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+            color: #FFFFFF;
+            font-size: 25px;
+            padding-top: 21px;
+            margin-right: 242px;
+        }
+        /*  .logo-do-rodape {
+            width: 184px;
+            height: 184px;
+            left: 1148px;
+            top: 1801px;
+            margin-left: 500px;
+        }*/
