@@ -127,7 +127,6 @@
             flex-direction: column;
             padding: 24px;
             margin-left: 25%;
-            border-bottom: 20px solid #EF374D;
         }
         
         .rodape-titulo {
@@ -153,10 +152,11 @@
             padding-top: 21px;
             margin-right: 242px;
         }
-        /*  .logo-do-rodape {
+        
+        .logo-do-rodape {
             width: 184px;
             height: 184px;
             left: 1148px;
             top: 1801px;
             margin-left: 500px;
-        }*/
+        }
