@@ -111,6 +111,12 @@
             font-size: 20px;
             margin-left: 143px;
         }
+
+        .botao:hover{
+            background-color: #F1F0F5;
+            cursor: pointer;
+            
+        }
         
         .celular {
             position: absolute;
