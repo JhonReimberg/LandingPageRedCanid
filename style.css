@@ -1,11 +1,79 @@
-        * {
+         
+         @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+         
+
+         * {
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-            text-decoration: none;
-        }
+         }   
+
+
+         body {
+            background:  linear-gradient( -0.2turn, red, rgba(36, 4, 4, 0.925) ); 
+            font-family: 'Space Grotesk', sans-serif;
+            color: #ffffff;
+        }     
         
-        body {
+        
+
+           .cabecalho{
+                display: flex;
+                height: 10vh;
+                justify-content: space-evenly;
+                margin: 20px;
+                align-items: center;
+                background-color: rgb(255, 255, 255);
+                
+                
+            }
+
+            .cabecalho-menu{
+                display: flex;
+            }
+
+            .cabecalho-menu-item{
+                display: flex;
+                justify-content: space-between;
+                padding: 10px;
+                color: currentColor;
+                
+                
+                
+            }
+
+            .cabecalho-botao-item{
+                border-radius: 20px;
+                height: 60px;
+                width: 120px;
+                margin-top: 20px;               
+	            color: #ffffff;
+	            border: 1px solid #ffffff;
+	            border-radius: 40px;
+	            background-color: #000000;
+	            text-shadow: none;
+                font-family: 'Space Grotesk', sans-serif;
+
+            }
+
+            .cabecalho-botao-item:hover{
+                background:transparent;
+                transition-duration: 0.4s;
+	            color: #ffffff;                
+	            border-radius: 40px;
+	            text-shadow: none;
+                cursor: pointer;
+                font-family: 'Space Grotesk', sans-serif;
+
+            }
+
+            
+
+
+
+
+        
+        
+/*         body {
             font-size: 100%;
             background: #161816;
         }
@@ -60,7 +128,7 @@
         
         .conteudo {
             border-top: 20px solid #EF374D;
-            border-bottom: 20px solid #EF374D;
+            border-bottom: 50px solid #EF374D;
             padding-top: 131px;
             padding-bottom: 180px;
         }
@@ -106,8 +174,11 @@
         }
 
         .botao:hover{
+            transition-duration: 1000ms;
             background-color: #F1F0F5;
             cursor: pointer;
+            color: #EF374D;
+            
             
         }
         
@@ -158,4 +229,4 @@
             left: 1148px;
             top: 1801px;
             margin-left: 500px;
-        }
+        } */
